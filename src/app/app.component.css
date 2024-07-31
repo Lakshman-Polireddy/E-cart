@@ -1,0 +1,76 @@
+.main {
+    display: inline-block;
+}
+
+.input-box {
+    padding-top: 20px;
+    margin-left: 40%;
+}
+
+input[type="text"] {
+    width: 200px;
+}
+
+input[type='text'],
+button {
+    padding: 5px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-search-disabled {
+    background-color: #bbb9b9;
+    cursor: not-allowed;
+}
+
+.add-text {
+    margin-left: 40%;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* flex-direction: column; */
+}
+
+.card-image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.items {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.items:hover {
+    box-shadow: 3px 3px 8px;
+}
+
+.item {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #bbb9b9;
+}
+
+.footer-text {
+    margin-left: 50%;
+    background-color: #bbb9b9;
+    padding: 10px;
+    color: black;
+}
